@@ -6,4 +6,10 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if s.isdigit()==True:
+        return s
+    return -1
+s = "16"
+print(main(s))
+s = "s"
+print(main(s))
