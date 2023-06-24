@@ -6,4 +6,9 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    return s[0]+s[-1]
+s = "samarkand"
+print(main(s))
+s = "codeacademy"
+print(main(s))
+
