@@ -6,4 +6,11 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    if len(s)>=n:
+        return s[n]
+    if len(s)<n:
+        return False
+s,n = "salom",4
+print(main(s,n))
+s,n = "codeacademy",14
+print(main(s,n))
