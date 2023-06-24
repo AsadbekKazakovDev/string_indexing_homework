@@ -6,4 +6,17 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    a= s%10
+    s//=10
+    b= s%10
+    s//=10
+    c= s%10
+    s//=10
+    d= s%10
+    s//=10
+    e= s%10
+    s//=10
+    return a+b+c+d+e
+s = 19302
+print(main(s))
+    
