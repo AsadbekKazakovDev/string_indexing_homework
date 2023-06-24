@@ -6,5 +6,9 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    return s[0].isdigit()+s[1].isdigit()+s[2].isdigit()+s[3].isdigit()+s[4].isdigit()
+s = "3**z2"
+print(main(s))
+s = "1**A*"
+print(main(s))
         
